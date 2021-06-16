@@ -1,6 +1,8 @@
 # imapsync-how-to
 How to use imapsync
 
+How to install and use imapsync on Ubuntu 20.04 for free (no purchase)
+
 Main:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
