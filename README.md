@@ -4,7 +4,9 @@ How to use imapsync
 Main:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
+- https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
 - https://www.systutorials.com/docs/linux/man/1-imapsync/
+
 
 Advice:
 - https://blog.wydler.eu/2020/02/05/imapsync-installieren-und-nutzen/ - 2020 DE
