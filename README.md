@@ -7,13 +7,13 @@ Main:
 - https://www.systutorials.com/docs/linux/man/1-imapsync/
 
 Advice:
-- https://blog.wydler.eu/2020/02/05/imapsync-installieren-und-nutzen/
-- https://marketmix.com/de/imapsync-emailkonten-auf-neuen-server-umziehen/
-- https://www.haybach.com/imapsync/doc/GOOD_PRACTICES.html
+- https://blog.wydler.eu/2020/02/05/imapsync-installieren-und-nutzen/ - 2020 DE
+- https://marketmix.com/de/imapsync-emailkonten-auf-neuen-server-umziehen/ - 2016 DE
+- https://www.haybach.com/imapsync/doc/GOOD_PRACTICES.html - 2018 EN
+- https://tecadmin.net/use-imapsync-on-ubuntu/ - 2021 EN
 
 
-
-How to:
+## How to
 
 OS: Ubuntu 20.04.2 LTS
 
