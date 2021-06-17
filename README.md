@@ -45,24 +45,36 @@ Next steps:
 
 ## Usage
 ```
-./imapsync
---dry
---host1 'test1.lamiral.info'
---user1 'test1'
---password1 'secret1'
---host2 'test2.lamiral.info'
---user2 'test2'
---password2 'secret2'
---delete2
---delete2folders
---debugssl 4
---sslargs1 SSL_verify_mode=1
---sslargs1 SSL_version=TLSv1_2
---sslargs2 SSL_verify_mode=1
---sslargs2 SSL_version=TLSv1_2
+--> put the whole command here
+
+./imapsync # call the executable in the current directory
+--dry # perform a dry run, meaning that the commands are shown but not actually executed
+--host1 'test1.lamiral.info' # domain of the source IMAP account (host1)
+--user1 'test1' # username of the source IMAP account (host1)
+--password1 'secret1' # password of the source IMAP account (host1)
+--host2 'test2.lamiral.info' # domain of the target IMAP account (host2)
+--user2 'test2' # username of the target IMAP account (host2)
+--password2 'secret2' # password for the target IMAP account (host2)
+
+--sslargs1 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host1 is valid (if 1)
+--sslargs1 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host1 (source) to a specific version, in this case TLS1.2
+--sslargs2 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host2 is valid (if 1)
+--sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
+
+--debugssl 4 # degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
+
+--delete2 # delete all emails on host2 (target)
+--delete2folders # delete all folders on host2 (target)
 
 # Note: the line breaks have to be removed
 ```
+
+Regarding security:
+- imapsync offers two options for encryption in transit, `--ssl` and `--tls` (with a suffix of 1 or 2 for the host). It's not totally clear which of these commands does what in terms of encryption.
+- In IMAP transfers, there are two encryption options, `SSL/TLS` and `STARTTLS`. `SSL/TLS` is more secure than `STARTTLS` (see links below).
+- As far as the author knows, `--ssl` in imapsync refers to IMAP's `SSL/TLS` and imapsync's `--tls` refers to IMAP's `STARTTLS`.
+- Therefore imapsync's `--ssl` parameter is to be preferred over imapsync's `--tls` parameter.
+- This is confusing because the TLS encryption protocol is the successor of the SSL encryption protocol and the modern TLS is generally preferred over the older SSL. But since in this case imapsync's tags seem to refer to the IMAP terms and not the enryption protocol terms, there is a different meaning.
 
 ## Other
 
@@ -75,3 +87,7 @@ Links:
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
 - https://wiki.zimbra.com/wiki/Guide_to_imapsync
 - https://pagure.io/imapsync
+- https://serverfault.com/questions/523804/is-starttls-less-safe-than-tls-ssl
+- https://mailtrap.io/blog/starttls-ssl-tls/
+- https://www.fastmail.help/hc/en-us/articles/360058753834-SSL-TLS-and-STARTTLS
+- https://www.privacy-handbuch.de/handbuch_31c.htm
