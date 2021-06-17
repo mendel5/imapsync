@@ -31,9 +31,6 @@ git clone https://github.com/imapsync/imapsync
 
 cd imapsync/
 
-sudo make install
-// the above step is maybe not necessary?? see debian install
-
 ./imapsync
 
 ./imapsync --testslive --releasecheck
