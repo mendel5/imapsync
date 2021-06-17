@@ -1,7 +1,9 @@
 # imapsync-how-to
 How to install and use imapsync on Linux Mint for free (no purchase)
 
-Links:
+## Intro
+
+Official links:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
