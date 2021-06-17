@@ -21,7 +21,7 @@ sudo apt upgrade
 
 sudo apt install git make gcc
 
-sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl libdata-uniqid-perl libdigest-hmac-perl libdist-checkconflicts-perl libencode-imaputf7-perl libfile-copy-recursive-perl libfile-tail-perl libio-compress-perl libio-socket-inet6-perl libio-socket-ssl-perl libio-tee-perl libmail-imapclient-perl libmodule-scandeps-perl libnet-dbus-perl libnet-ssleay-perl libpar-packer-perl libreadonly-perl libregexp-common-perl libsys-meminfo-perl libterm-readkey-perl libtest-fatal-perl libtest-mock-guard-perl libtest-mockobject-perl libtest-pod-perl libtest-requires-perl libtest-simple-perl libunicode-string-perl liburi-perl libtest-nowarnings-perl libtest-deep-perl libtest-warn-perl make cpanminus
+sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl libdata-uniqid-perl libdigest-hmac-perl libdist-checkconflicts-perl libencode-imaputf7-perl libfile-copy-recursive-perl libfile-tail-perl libio-compress-perl libio-socket-inet6-perl libio-socket-ssl-perl libio-tee-perl libmail-imapclient-perl libmodule-scandeps-perl libnet-dbus-perl libnet-ssleay-perl libpar-packer-perl libreadonly-perl libregexp-common-perl libsys-meminfo-perl libterm-readkey-perl libtest-fatal-perl libtest-mock-guard-perl libtest-mockobject-perl libtest-pod-perl libtest-requires-perl libtest-simple-perl libunicode-string-perl liburi-perl libtest-nowarnings-perl libtest-deep-perl libtest-warn-perl make cpanminus libcrypt-openssl-rsa-perl
 
 sudo cpanm Mail::IMAPClient
 
@@ -50,25 +50,13 @@ Next steps:
 ```
 imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1' --host2 'test2.lamiral.info' --user2 'test2' --password2 'secret2'
 
---sslargs1 SSL_version=TLSv1_2
---sslargs2 SSL_version=TLSv1_2
-
 --delete2 --delete2folders
 
 --debugssl 4
 
-The autor should really test the guide with a clean install. the packages “ssl” and “libssl-dev” are missing
+--sslargs1 SSL_verify_mode=1 --sslargs1 SSL_version=TLSv1_2
+--sslargs2 SSL_verify_mode=1 --sslargs2 SSL_version=TLSv1_2
 
-To recover:
-sudo apt-get install gcc
-sudo apt-get install libssl-dev
-sudo cpanm Crypt::OpenSSL::Random –force
-sudo cpanm Crypt::OpenSSL::RSA –force
-sudo make clean
-sudo make install
-
-Paket: libcrypt-openssl-rsa-perl (0.31-1 und andere) 
-libcrypt-openssl-rsa-perl
 
 ```
 
@@ -85,3 +73,4 @@ Links:
 - https://www.systutorials.com/docs/linux/man/1-imapsync/
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
 - https://wiki.zimbra.com/wiki/Guide_to_imapsync
+- https://pagure.io/imapsync
