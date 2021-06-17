@@ -36,6 +36,11 @@ cd imapsync/
 ./imapsync --testslive --releasecheck
 
 sudo cp imapsync /usr/bin/
+
+imapsync --testslive --releasecheck
+
+imapsync
+
 ```
 
 Next steps:
