@@ -64,7 +64,7 @@ sudo make install
 
 ./imapsync
 
-./imapsync --testslive
+./imapsync --testslive --releasecheck
 
 cp imapsync /usr/bin/
 
