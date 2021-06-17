@@ -54,6 +54,7 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 ```
 
 Todo: SSL / TLS
+- https://imapsync.lamiral.info/FAQ.d/FAQ.Security.txt
 
 ## Other
 
