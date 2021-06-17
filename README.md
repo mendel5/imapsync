@@ -1,12 +1,12 @@
 # imapsync-how-to
-How to install imapsync on Linux Mint for free (no purchase)
+How to install and use imapsync on Linux Mint for free (no purchase)
 
 Links:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
 
-## How to
+## Installation
 
 OS: Linux Mint 20.1 Cinnamon
 
@@ -46,6 +46,15 @@ imapsync
 Next steps:
 - http://imapsync.lamiral.info/#doc
 
+## Usage
+```
+imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1' --host2 'test2.lamiral.info' --user2 'test2' --password2 'secret2'
+
+--delete2 --delete2folders
+```
+
+Todo: SSL / TLS
+
 ## Other
 
 Links:
@@ -55,3 +64,4 @@ Links:
 - https://tecadmin.net/use-imapsync-on-ubuntu/ - 2021 EN
 - https://www.systutorials.com/docs/linux/man/1-imapsync/
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
+- https://wiki.zimbra.com/wiki/Guide_to_imapsync
