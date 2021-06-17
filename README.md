@@ -50,9 +50,5 @@ sudo make install
 sudo cp imapsync /usr/bin/
 ```
 
-http://imapsync.lamiral.info/#doc
-
-
-Todo:
-- compare ubuntu and debian instructions. What are the differences?
-- Test my instructions on clean linux mint machine
+Next steps:
+- http://imapsync.lamiral.info/#doc
