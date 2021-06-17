@@ -32,7 +32,7 @@ sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl lib
 
 sudo cpanm Mail::IMAPClient
 
-cd ~/Downloads
+cd ~/Downloads/
 
 git clone https://github.com/imapsync/imapsync
 
