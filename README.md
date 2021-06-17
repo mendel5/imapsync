@@ -54,6 +54,17 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 --sslargs2 SSL_version=TLSv1_2
 
 --delete2 --delete2folders
+
+The autor should really test the guide with a clean install. the packages “ssl” and “libssl-dev” are missing
+
+To recover:
+sudo apt-get install gcc
+sudo apt-get install libssl-dev
+sudo cpanm Crypt::OpenSSL::Random –force
+sudo cpanm Crypt::OpenSSL::RSA –force
+sudo make clean
+sudo make install
+
 ```
 
 Todo: SSL / TLS
