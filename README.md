@@ -1,27 +1,18 @@
 # imapsync-how-to
-How to use imapsync
+How to install imapsync on Linux Mint for free (no purchase)
 
-How to install and use imapsync on Ubuntu 20.04 for free (no purchase)
-
-Main:
+Links:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
-- https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
-
-
-Advice:
-- https://blog.wydler.eu/2020/02/05/imapsync-installieren-und-nutzen/ - 2020 DE
-- https://marketmix.com/de/imapsync-emailkonten-auf-neuen-server-umziehen/ - 2016 DE
-- https://www.haybach.com/imapsync/doc/GOOD_PRACTICES.html - 2018 EN
-- https://tecadmin.net/use-imapsync-on-ubuntu/ - 2021 EN
-- https://www.systutorials.com/docs/linux/man/1-imapsync/
 
 ## How to
 
 OS: Linux Mint 20.1 Cinnamon
 
-Press `Ctrl` + `Alt` + `T` to open a Terminal
+Press `Ctrl` + `Alt` + `T` to open a Terminal.
+
+Execute the following commands:
 
 ```
 sudo apt update
@@ -52,3 +43,13 @@ sudo cp imapsync /usr/bin/
 
 Next steps:
 - http://imapsync.lamiral.info/#doc
+
+## Other
+
+Links:
+- https://blog.wydler.eu/2020/02/05/imapsync-installieren-und-nutzen/ - 2020 DE
+- https://marketmix.com/de/imapsync-emailkonten-auf-neuen-server-umziehen/ - 2016 DE
+- https://www.haybach.com/imapsync/doc/GOOD_PRACTICES.html - 2018 EN
+- https://tecadmin.net/use-imapsync-on-ubuntu/ - 2021 EN
+- https://www.systutorials.com/docs/linux/man/1-imapsync/
+- https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
