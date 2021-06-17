@@ -54,12 +54,22 @@ sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl lib
 
 sudo cpanm Mail::IMAPClient
 
------
-
 cd ~/Downloads
 
 git clone https://github.com/imapsync/imapsync
 
+cd imapsync/
+
+sudo make install
+
+./imapsync
+
+./imapsync --testslive
+
+cp imapsync /usr/bin/
+
+
+///////////////////////////////
 
 --
 git clone ?
@@ -77,3 +87,5 @@ cd imapsync-1.xxx
 cp imapsync /usr/bin/
 
 ```
+
+http://imapsync.lamiral.info/#doc
