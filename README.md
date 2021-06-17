@@ -55,6 +55,8 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 
 --delete2 --delete2folders
 
+--debugssl 4
+
 The autor should really test the guide with a clean install. the packages “ssl” and “libssl-dev” are missing
 
 To recover:
