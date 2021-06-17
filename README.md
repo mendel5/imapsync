@@ -13,7 +13,7 @@ Official links:
 
 Operating system: Linux Mint 20.1 Cinnamon
 
-Press `Ctrl` + `Alt` + `T` to open a Terminal.
+Press `Ctrl` + `Alt` + `T` to open a terminal.
 
 Execute the following commands:
 
