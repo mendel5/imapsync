@@ -21,9 +21,7 @@ sudo apt upgrade
 
 sudo apt install git make gcc
 
-sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl libdata-uniqid-perl libdigest-hmac-perl libdist-checkconflicts-perl libencode-imaputf7-perl libfile-copy-recursive-perl libfile-tail-perl libio-compress-perl libio-socket-inet6-perl libio-socket-ssl-perl libio-tee-perl libmail-imapclient-perl libmodule-scandeps-perl libnet-dbus-perl libnet-ssleay-perl libpar-packer-perl libreadonly-perl libregexp-common-perl libsys-meminfo-perl libterm-readkey-perl libtest-fatal-perl libtest-mock-guard-perl libtest-mockobject-perl libtest-pod-perl libtest-requires-perl libtest-simple-perl libunicode-string-perl liburi-perl libtest-nowarnings-perl libtest-deep-perl libtest-warn-perl make cpanminus libcrypt-openssl-rsa-perl
-
-sudo cpanm Mail::IMAPClient
+sudo apt install libauthen-ntlm-perl libclass-load-perl libcrypt-ssleay-perl libdata-uniqid-perl libdigest-hmac-perl libdist-checkconflicts-perl libencode-imaputf7-perl libfile-copy-recursive-perl libfile-tail-perl libio-compress-perl libio-socket-inet6-perl libio-socket-ssl-perl libio-tee-perl libmail-imapclient-perl libmodule-scandeps-perl libnet-dbus-perl libnet-ssleay-perl libpar-packer-perl libreadonly-perl libregexp-common-perl libsys-meminfo-perl libterm-readkey-perl libtest-fatal-perl libtest-mock-guard-perl libtest-mockobject-perl libtest-pod-perl libtest-requires-perl libtest-simple-perl libunicode-string-perl liburi-perl libtest-nowarnings-perl libtest-deep-perl libtest-warn-perl make cpanminus libcrypt-openssl-rsa-perl libjson-webtoken-perl libmail-imapclient-perl libpackage-stash-xs-perl
 
 cd ~/Downloads/
 
@@ -36,12 +34,6 @@ sudo make install
 ./imapsync
 
 ./imapsync --testslive --releasecheck
-
-sudo cp imapsync /usr/bin/
-
-imapsync --testslive --releasecheck
-
-imapsync
 
 ```
 
@@ -58,10 +50,6 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 
 --sslargs1 SSL_verify_mode=1 --sslargs1 SSL_version=TLSv1_2
 --sslargs2 SSL_verify_mode=1 --sslargs2 SSL_version=TLSv1_2
-
-libjson-webtoken-perl
-libmail-imapclient-perl
-libpackage-stash-xs-perl
 
 ```
 
