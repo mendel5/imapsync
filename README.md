@@ -31,6 +31,8 @@ git clone https://github.com/imapsync/imapsync
 
 cd imapsync/
 
+sudo make install
+
 ./imapsync
 
 ./imapsync --testslive --releasecheck
