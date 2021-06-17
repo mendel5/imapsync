@@ -11,7 +11,7 @@ Official links:
 
 ## Installation
 
-OS: Linux Mint 20.1 Cinnamon
+Operating system: Linux Mint 20.1 Cinnamon
 
 Press `Ctrl` + `Alt` + `T` to open a Terminal.
 
