@@ -59,6 +59,8 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 --sslargs1 SSL_verify_mode=1 --sslargs1 SSL_version=TLSv1_2
 --sslargs2 SSL_verify_mode=1 --sslargs2 SSL_version=TLSv1_2
 
+libjson-perl // nein
+libjson-webtoken-perl
 
 ```
 
