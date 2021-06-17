@@ -7,6 +7,7 @@ Main:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
+- https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
 - https://www.systutorials.com/docs/linux/man/1-imapsync/
 
 
@@ -61,6 +62,7 @@ git clone https://github.com/imapsync/imapsync
 cd imapsync/
 
 sudo make install
+// the above step is maybe not necessary?? see debian intall
 
 ./imapsync
 
