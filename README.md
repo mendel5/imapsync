@@ -41,6 +41,8 @@ sudo make install
 
 ## How to 2
 
+OS: Linux Mint 20.1 Cinnamon
+
 ```
 sudo apt update
 
