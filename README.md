@@ -61,6 +61,7 @@ imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1
 
 libjson-webtoken-perl
 libmail-imapclient-perl
+libpackage-stash-xs-perl
 
 ```
 
