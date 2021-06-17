@@ -5,6 +5,7 @@ Links:
 - https://imapsync.lamiral.info/
 - https://github.com/imapsync/imapsync
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Ubuntu.txt
+- https://github.com/imapsync/imapsync/blob/master/FAQ.d/FAQ.Security.txt
 
 ## Installation
 
@@ -42,19 +43,24 @@ Next steps:
 
 ## Usage
 ```
-imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1' --host2 'test2.lamiral.info' --user2 'test2' --password2 'secret2'
-
---delete2 --delete2folders
-
+./imapsync
+--dry
+--host1 'test1.lamiral.info'
+--user1 'test1'
+--password1 'secret1'
+--host2 'test2.lamiral.info'
+--user2 'test2'
+--password2 'secret2'
+--delete2
+--delete2folders
 --debugssl 4
+--sslargs1 SSL_verify_mode=1
+--sslargs1 SSL_version=TLSv1_2
+--sslargs2 SSL_verify_mode=1
+--sslargs2 SSL_version=TLSv1_2
 
---sslargs1 SSL_verify_mode=1 --sslargs1 SSL_version=TLSv1_2
---sslargs2 SSL_verify_mode=1 --sslargs2 SSL_version=TLSv1_2
-
+# Note: the line breaks have to be removed
 ```
-
-Todo: SSL / TLS
-- https://imapsync.lamiral.info/FAQ.d/FAQ.Security.txt
 
 ## Other
 
