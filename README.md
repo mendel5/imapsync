@@ -65,6 +65,9 @@ sudo cpanm Crypt::OpenSSL::RSA –force
 sudo make clean
 sudo make install
 
+Paket: libcrypt-openssl-rsa-perl (0.31-1 und andere) 
+libcrypt-openssl-rsa-perl
+
 ```
 
 Todo: SSL / TLS
