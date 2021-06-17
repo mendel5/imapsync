@@ -50,6 +50,9 @@ Next steps:
 ```
 imapsync --dry --host1 'test1.lamiral.info' --user1 'test1' --password1 'secret1' --host2 'test2.lamiral.info' --user2 'test2' --password2 'secret2'
 
+--sslargs1 SSL_version=TLSv1_2
+--sslargs2 SSL_version=TLSv1_2
+
 --delete2 --delete2folders
 ```
 
