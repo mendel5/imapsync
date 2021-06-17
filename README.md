@@ -66,26 +66,7 @@ sudo make install
 
 ./imapsync --testslive --releasecheck
 
-cp imapsync /usr/bin/
-
-
-///////////////////////////////
-
---
-git clone ?
---
-
-cd 
-tar xzvf  imapsync-1.xxx.tgz
-
-cd imapsync-1.xxx
-
-./imapsync
-
-./imapsync --testslive
-
-cp imapsync /usr/bin/
-
+sudo cp imapsync /usr/bin/
 ```
 
 http://imapsync.lamiral.info/#doc
