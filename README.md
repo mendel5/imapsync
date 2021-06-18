@@ -45,12 +45,6 @@ Next steps:
 
 ## Usage
 
-Command in one line:
-
-```
---> put the whole command here
-```
-
 All parameters explained:
 
 ```
@@ -76,7 +70,7 @@ All parameters explained:
 --delete2 # delete all emails on host2 (target)
 --delete2folders # delete all folders on host2 (target)
 
-# Note: the line breaks have to be removed
+# Note: the line breaks and comments have to be removed. The whole command has to be on a single line.
 ```
 
 ## Encryption
