@@ -51,17 +51,17 @@ All parameters explained:
 ./imapsync # call the executable in the current directory
 --dry # perform a dry run, meaning that the commands are shown but not actually executed
 --host1 'test1.lamiral.info' # domain of the source IMAP account (host1)
---port1 993
+--port1 993 # port of the source IMAP domain (host1)
 --user1 'source-user@source-domain.com' # username of the source IMAP account (host1)
 --password1 'secret1' # password of the source IMAP account (host1)
 --host2 'test2.lamiral.info' # domain of the target IMAP account (host2)
---port2 993
+--port2 993 # port of the target IMAP domain (host2)
 --user2 'target-user@target-domain.com' # username of the target IMAP account (host2)
 --password2 'secret2' # password for the target IMAP account (host2)
---ssl1
+--ssl1 # force the usage of SSL/TLS (?) for the connection to host1, please refer to the section 'Encryption' below
 --sslargs1 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host1 is valid (if 1)
 --sslargs1 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host1 (source) to a specific version, in this case TLS1.2
---ssl2
+--ssl2 # force the usage of SSL/TLS (?) for the connection to host2, please refer to the section 'Encryption' below
 --sslargs2 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host2 is valid (if 1)
 --sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
 
