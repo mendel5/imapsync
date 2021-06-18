@@ -64,12 +64,10 @@ All parameters explained:
 --port2 993
 --user2 'target-user@target-domain.com' # username of the target IMAP account (host2)
 --password2 'secret2' # password for the target IMAP account (host2)
-
 --ssl1
---ssl2
-
 --sslargs1 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host1 is valid (if 1)
 --sslargs1 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host1 (source) to a specific version, in this case TLS1.2
+--ssl2
 --sslargs2 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host2 is valid (if 1)
 --sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
 
