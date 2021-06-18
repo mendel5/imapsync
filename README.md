@@ -44,9 +44,16 @@ Next steps:
 - http://imapsync.lamiral.info/#doc
 
 ## Usage
+
+Command in one line:
+
 ```
 --> put the whole command here
+```
 
+All parameters explained:
+
+```
 ./imapsync # call the executable in the current directory
 --dry # perform a dry run, meaning that the commands are shown but not actually executed
 --host1 'test1.lamiral.info' # domain of the source IMAP account (host1)
