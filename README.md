@@ -65,8 +65,8 @@ All parameters explained:
 --sslargs2 SSL_verify_mode=1 # Checks whether the SSL/TLS certificate of host2 is valid (if 1)
 --sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
 
---subscribeall # Subscribe to the folders transferred to host2 even if they are not subscribed on host1
 --expunge1 # Expunge messages on host1 just before syncing a folder
+--subscribeall # Subscribe to the folders transferred to host2 even if they are not subscribed on host1
 
 --delete2 # Delete all emails on host2 (target)
 --delete2folders # Delete all folders on host2 (target)
