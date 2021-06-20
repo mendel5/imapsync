@@ -80,7 +80,7 @@ All parameters explained:
 ## Encryption
 
 Regarding security with encryption in transit:
-- imapsync offers two options for encryption in transit, `--ssl` and `--tls` (with a suffix of `1` or `2` for the host). It's not totally clear which of these commands does what in terms of encryption.
+- imapsync offers two parameters for encryption in transit, `--ssl` and `--tls` (with a suffix of `1` or `2` for the host). It's not totally clear which of these commands does what in terms of encryption.
 - In IMAP transfers, there are two encryption options, `SSL/TLS` and `STARTTLS`. Encryption with `SSL/TLS` is preferred because it is more secure than `STARTTLS` (see links below).
 - As far as the author knows, `--ssl` in imapsync refers to IMAP's `SSL/TLS` and imapsync's `--tls` refers to IMAP's `STARTTLS`.
 - Therefore imapsync's `--ssl` parameter is to be preferred over imapsync's `--tls` parameter.
