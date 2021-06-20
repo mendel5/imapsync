@@ -65,10 +65,10 @@ All parameters explained:
 --sslargs2 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host2 is valid (if 1)
 --sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
 
---debugssl 4 # degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
-
 --delete2 # delete all emails on host2 (target)
 --delete2folders # delete all folders on host2 (target)
+
+--debugssl 4 # degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
 
 # Note: the line breaks and comments have to be removed. The whole command has to be on a single line.
 ```
