@@ -68,6 +68,9 @@ All parameters explained:
 --delete2 # delete all emails on host2 (target)
 --delete2folders # delete all folders on host2 (target)
 
+--subscribeall
+--expunge1
+
 --debugssl 4 # degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
 
 # Note: the line breaks and comments have to be removed. The whole command has to be on a single line.
