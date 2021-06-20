@@ -48,30 +48,30 @@ Next steps:
 All parameters explained:
 
 ```
-./imapsync # call the executable in the current directory
---dry # perform a dry run, meaning that the commands are shown but not actually executed
---host1 'test1.lamiral.info' # domain of the source IMAP account (host1)
---port1 993 # port of the source IMAP domain (host1)
---user1 'source-user@source-domain.com' # username of the source IMAP account (host1)
---password1 'secret1' # password of the source IMAP account (host1)
---host2 'test2.lamiral.info' # domain of the target IMAP account (host2)
---port2 993 # port of the target IMAP domain (host2)
---user2 'target-user@target-domain.com' # username of the target IMAP account (host2)
---password2 'secret2' # password for the target IMAP account (host2)
---ssl1 # force the usage of SSL/TLS (?) for the connection to host1, please refer to the section 'Encryption' below
---sslargs1 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host1 is valid (if 1)
+./imapsync # Call the executable in the current directory
+--dry # Perform a dry run, meaning that the commands are shown but not actually executed
+--host1 'test1.lamiral.info' # Domain of the source IMAP account (host1)
+--port1 993 # Port of the source IMAP domain (host1)
+--user1 'source-user@source-domain.com' # Username of the source IMAP account (host1)
+--password1 'secret1' # Password of the source IMAP account (host1)
+--host2 'test2.lamiral.info' # Domain of the target IMAP account (host2)
+--port2 993 # Port of the target IMAP domain (host2)
+--user2 'target-user@target-domain.com' # Username of the target IMAP account (host2)
+--password2 'secret2' # Password for the target IMAP account (host2)
+--ssl1 # Force the usage of SSL/TLS (?) for the connection to host1, please refer to the section 'Encryption' below
+--sslargs1 SSL_verify_mode=1 # Checks whether the SSL/TLS certificate of host1 is valid (if 1)
 --sslargs1 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host1 (source) to a specific version, in this case TLS1.2
---ssl2 # force the usage of SSL/TLS (?) for the connection to host2, please refer to the section 'Encryption' below
---sslargs2 SSL_verify_mode=1 # checks whether the SSL/TLS certificate of host2 is valid (if 1)
+--ssl2 # Force the usage of SSL/TLS (?) for the connection to host2, please refer to the section 'Encryption' below
+--sslargs2 SSL_verify_mode=1 # Checks whether the SSL/TLS certificate of host2 is valid (if 1)
 --sslargs2 SSL_version=TLSv1_2 # Set the encryption protocol (SSL/TLS) to host2 (target) to a specific version, in this case TLS1.2
 
---delete2 # delete all emails on host2 (target)
---delete2folders # delete all folders on host2 (target)
+--subscribeall # Subscribe to the folders transferred on the host2 even if they are not subscribed on host1
+--expunge1 # Expunge messages on host1 just before syncing a folder.
 
---subscribeall
---expunge1
+--delete2 # Delete all emails on host2 (target)
+--delete2folders # Delete all folders on host2 (target)
 
---debugssl 4 # degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
+--debugssl 4 # Degree of verbosity of the ssl debug statements, available from 0 (off) to 4 (maximum), standard is 1
 
 # Note: the line breaks and comments have to be removed. The whole command has to be on a single line.
 ```
