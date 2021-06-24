@@ -45,8 +45,12 @@ Next steps:
 
 ## Usage
 
-All parameters explained:
+Command in one line:
+```
+# paste command here
+```
 
+All parameters explained:
 ```
 ./imapsync # Call the executable in the current directory
 --dry # Perform a dry run, meaning that the commands are shown but not actually executed
