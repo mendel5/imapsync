@@ -608,3 +608,20 @@ $Id: imapsync,v 1.977 2019/12/23 20:18:02 gilles Exp gilles $
 Check if a new imapsync release is available by adding --releasecheck
 Homepage: https://imapsync.lamiral.info/
 ```
+
+## Tags
+
+Tags to improve the indexing of search engines:
+- e-mail
+- email
+- imap
+- transfer
+- synchronisation
+- tutorial
+- guide
+- howto
+- how-to
+- how to
+- instruction
+- instructions
+- manual
