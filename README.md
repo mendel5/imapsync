@@ -41,7 +41,7 @@ sudo make install
 ```
 
 Next steps:
-- http://imapsync.lamiral.info/#doc
+- https://imapsync.lamiral.info/#doc
 
 ## Usage
 
