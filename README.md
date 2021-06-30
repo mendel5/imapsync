@@ -105,6 +105,7 @@ Links:
 - https://mailtrap.io/blog/starttls-ssl-tls/
 - https://www.fastmail.help/hc/en-us/articles/360058753834-SSL-TLS-and-STARTTLS
 - https://www.privacy-handbuch.de/handbuch_31c.htm
+- https://hub.docker.com/r/gilleslamiral/imapsync/ - imapsync is also available for Docker at Docker Hub
 
 ## imapsync help output
 
