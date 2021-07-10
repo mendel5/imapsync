@@ -101,6 +101,7 @@ Links:
 - https://github.com/imapsync/imapsync/blob/master/INSTALL.d/INSTALL.Debian.txt
 - https://wiki.zimbra.com/wiki/Guide_to_imapsync
 - https://pagure.io/imapsync
+- https://imapsync.lamiral.info/imapsync
 - https://serverfault.com/questions/523804/is-starttls-less-safe-than-tls-ssl
 - https://mailtrap.io/blog/starttls-ssl-tls/
 - https://www.fastmail.help/hc/en-us/articles/360058753834-SSL-TLS-and-STARTTLS
