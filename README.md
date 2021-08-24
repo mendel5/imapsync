@@ -108,7 +108,7 @@ Links:
 - https://www.privacy-handbuch.de/handbuch_31c.htm
 - https://hub.docker.com/r/gilleslamiral/imapsync/ - imapsync is also available for Docker at Docker Hub
 
-## imapsync help output
+## Output: imapsync help
 
 ```
 ./imapsync --help
